@@ -4,6 +4,19 @@
   const btn = document.getElementById('btn');
 
   btn.addEventListener('click',() => {
-    btn.textContent = 'hit!';
+    const n = Math.floor(math.random()) * 3);
+    // btn.textContent = n;
+
+    swich (n) {
+      case 0:
+        btn.textContent = '大吉';
+        break;
+      case 1:
+        btn.textContent = '吉';
+        break;
+      case 2:
+        btn.textContent = '大凶';
+        break;
+    }
   });
 }
