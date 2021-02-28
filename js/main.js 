@@ -4,8 +4,8 @@
   const btn = document.getElementById('btn');
 
   btn.addEventListener('click',() => {
+    const results = ['大吉', '吉', '大凶'];
     const n = Math.floor(math.random()) * 3);
-    // btn.textContent = n;
 
     swich (n) {
       case 0:
