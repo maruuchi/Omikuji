@@ -4,19 +4,8 @@
   const btn = document.getElementById('btn');
 
   btn.addEventListener('click',() => {
-    const results = ['大吉', '吉', '大凶'];
-    const n = Math.floor(math.random()) * 3);
+    const results = ['大吉', '吉', '大凶', '中吉'];
+    btn.textContent = results[Math.floor(math.random()) * results.length)];
 
-    swich (n) {
-      case 0:
-        btn.textContent = '大吉';
-        break;
-      case 1:
-        btn.textContent = '吉';
-        break;
-      case 2:
-        btn.textContent = '大凶';
-        break;
-    }
   });
 }
