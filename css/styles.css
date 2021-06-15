@@ -6,7 +6,6 @@ body {
   width: 200px;
   height: 200px;
   background: #ef454a;
-  /* 四角が丸くなる  */
   border-radius: 50%;
   margin: 30px auto;
   text-align: center;
@@ -20,7 +19,7 @@ body {
 }
 
 #btn:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 #btn:active {
